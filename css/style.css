@@ -9,16 +9,29 @@ p {
   margin-bottom: .67em;
 }
 nav, footer {
-  background-color: #444;
+  background-color: #345636;
 }
 footer {
   text-align: center;
   padding: 1em 0 .3em 0;
   color: #D0D0D0;
 }
+.firstline {
+  font-size: 23px;
+}
+
+.dropcap {
+  font-size: 69px; /*nice*/
+  line-height: 50px;
+  float: left;
+  font-weight: 550;
+}
 /*-- Main Menu Styles--*/
 nav ul {
-  list-style: horizontal row;
+  margin: 0 auto;
+  width: 768px;
+  display: flex;
+  justify-content: space-between;
   padding: 1em;
 }
 nav a:link, nav a:visited {
@@ -44,6 +57,8 @@ header img {
   margin: 0 auto;
 }
 header h1 {
+  color: 
+  font-weight: 575;
   text-align: center;
   margin: 0 auto;
   padding: 0 auto;
@@ -51,7 +66,9 @@ header h1 {
 .small {
   font-family: 'Lato', sans-serif;
   font-weight: 900;
-  font-size: 75%;
+  color: #2a460c;
+  text-transform: uppercase;
+  font-size: 16px;
   margin-top: 1em;
 }
 /*-- Article Styles--*/
@@ -71,26 +88,27 @@ article figcaption {
   font-family: 'Arial', sans-serif;
 }
 .pagination {
+  display: flex;
+  justify-content: space-between;
   margin-top: 2em;
   margin-bottom: 2em;
   width: 96%;
 }
 a.button {
-  margin: 0 auto;
-  justify-content: space-between;
-  border: 1px solid #888;
+
+  border: 3px solid #345636;
   padding: .4em 1em .4em 1em;
   text-decoration: none;
-  color: #888;
+  color: #2a460c;
   border-radius: 200px;
   font-family: 'Lato', sans-serif;
-  font-weight: 300;
+  font-weight: 700;
   font-size: 80%;
 }
 a.button:hover, a.button:active {
-  border: 1px solid #444;
+  border: 3px solid ;
   text-decoration: none;
-  color: #222;
+  color: #759177;
 }
 /*-- changes header and article width on small screens --*/
 @media screen and (max-width: 768px) {
